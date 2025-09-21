@@ -1,0 +1,1040 @@
+{
+  "data_source": "HR_SYSTEM_EXPORT",
+  "export_timestamp": "2025-09-18T00:00:00Z",
+  "export_version": "v2.1.8",
+  "total_records": 20,
+  "metadata": {
+    "system_id": "HR_SYS_20250918",
+    "batch_id": "BATCH_20250918_001",
+    "processing_flags": [
+      "VALIDATE_REQUIRED",
+      "AUTO_TRANSFORM",
+      "BATCH_PROCESSING"
+    ],
+    "quality_score": 98.5
+  },
+  "employees": [
+    {
+      "system_metadata": {
+        "record_id": "REC_100",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "NEW_HIRE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "INSERT",
+      "employee_data": {
+        "employee_id": "EMP999131",
+        "personal_info": {
+          "first_name": "Alejandro",
+          "middle_name": "M",
+          "last_name": "Restrepo",
+          "preferred_name": "Alejandro",
+          "full_name_calculated": "Alejandro M Restrepo",
+          "birth_date": "1985-01-10",
+          "age_calculated": 35,
+          "gender": "Male",
+          "ethnicity": "International",
+          "nationality": "Colombian",
+          "marital_status": "Married",
+          "emergency_contact": {
+            "name": "Contact Alejandro",
+            "relationship": "Spouse",
+            "phone": "+1-555-1000"
+          }
+        },
+        "contact_info": {
+          "email_address": "alejandro.restrepo@metrica.com",
+          "personal_email": "alejandro@gmail.com",
+          "phone_number": "+1-555-2000",
+          "mobile_number": "+1-555-3000",
+          "address": {
+            "address_line1": "1000 Innovation Street",
+            "address_line2": "Unit 1A",
+            "city": "Miami",
+            "state_province": "TX",
+            "postal_code": "90000",
+            "country_code": "USA",
+            "coordinates": {
+              "latitude": 37.7749,
+              "longitude": -122.4194
+            }
+          }
+        },
+        "employment_data": {
+          "hire_date": "2025-09-18",
+          "department": "Engineering",
+          "job_title": "Senior Engineer",
+          "manager_id": "EMP000100",
+          "salary_band": "L3",
+          "employment_type": "FULL_TIME"
+        },
+        "system_flags": {
+          "is_active": true,
+          "requires_background_check": true,
+          "has_signed_contract": true,
+          "orientation_completed": false
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_101",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "NEW_HIRE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "INSERT",
+      "employee_data": {
+        "employee_id": "EMP999132",
+        "personal_info": {
+          "first_name": "Kenji",
+          "middle_name": "M",
+          "last_name": "Watanabe",
+          "preferred_name": "Kenji",
+          "full_name_calculated": "Kenji M Watanabe",
+          "birth_date": "1986-02-11",
+          "age_calculated": 36,
+          "gender": "Female",
+          "ethnicity": "International",
+          "nationality": "Japanese",
+          "marital_status": "Single",
+          "emergency_contact": {
+            "name": "Contact Kenji",
+            "relationship": "Parent",
+            "phone": "+1-555-1001"
+          }
+        },
+        "contact_info": {
+          "email_address": "kenji.watanabe@metrica.com",
+          "personal_email": "kenji@gmail.com",
+          "phone_number": "+1-555-2001",
+          "mobile_number": "+1-555-3001",
+          "address": {
+            "address_line1": "1100 Innovation Street",
+            "address_line2": "Unit 2A",
+            "city": "Seattle",
+            "state_province": "TX",
+            "postal_code": "90001",
+            "country_code": "USA",
+            "coordinates": {
+              "latitude": 37.7849,
+              "longitude": -122.40939999999999
+            }
+          }
+        },
+        "employment_data": {
+          "hire_date": "2025-09-18",
+          "department": "Sales",
+          "job_title": "Senior Manager",
+          "manager_id": "EMP000101",
+          "salary_band": "L4",
+          "employment_type": "FULL_TIME"
+        },
+        "system_flags": {
+          "is_active": true,
+          "requires_background_check": false,
+          "has_signed_contract": true,
+          "orientation_completed": false
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_102",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "NEW_HIRE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "INSERT",
+      "employee_data": {
+        "employee_id": "EMP999133",
+        "personal_info": {
+          "first_name": "Zara",
+          "middle_name": "M",
+          "last_name": "Ahmed",
+          "preferred_name": "Zara",
+          "full_name_calculated": "Zara M Ahmed",
+          "birth_date": "1987-03-12",
+          "age_calculated": 37,
+          "gender": "Male",
+          "ethnicity": "International",
+          "nationality": "Pakistani",
+          "marital_status": "Single",
+          "emergency_contact": {
+            "name": "Contact Zara",
+            "relationship": "Parent",
+            "phone": "+1-555-1002"
+          }
+        },
+        "contact_info": {
+          "email_address": "zara.ahmed@metrica.com",
+          "personal_email": "zara@gmail.com",
+          "phone_number": "+1-555-2002",
+          "mobile_number": "+1-555-3002",
+          "address": {
+            "address_line1": "1200 Innovation Street",
+            "address_line2": "Unit 3A",
+            "city": "Houston",
+            "state_province": "TX",
+            "postal_code": "90002",
+            "country_code": "USA",
+            "coordinates": {
+              "latitude": 37.794900000000005,
+              "longitude": -122.3994
+            }
+          }
+        },
+        "employment_data": {
+          "hire_date": "2025-09-18",
+          "department": "Marketing",
+          "job_title": "Senior Analyst",
+          "manager_id": "EMP000102",
+          "salary_band": "L5",
+          "employment_type": "FULL_TIME"
+        },
+        "system_flags": {
+          "is_active": true,
+          "requires_background_check": true,
+          "has_signed_contract": true,
+          "orientation_completed": false
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_103",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "NEW_HIRE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "INSERT",
+      "employee_data": {
+        "employee_id": "EMP999134",
+        "personal_info": {
+          "first_name": "Marco",
+          "middle_name": "M",
+          "last_name": "Silva",
+          "preferred_name": "Marco",
+          "full_name_calculated": "Marco M Silva",
+          "birth_date": "1988-04-13",
+          "age_calculated": 38,
+          "gender": "Female",
+          "ethnicity": "International",
+          "nationality": "Portuguese",
+          "marital_status": "Married",
+          "emergency_contact": {
+            "name": "Contact Marco",
+            "relationship": "Spouse",
+            "phone": "+1-555-1003"
+          }
+        },
+        "contact_info": {
+          "email_address": "marco.silva@metrica.com",
+          "personal_email": "marco@gmail.com",
+          "phone_number": "+1-555-2003",
+          "mobile_number": "+1-555-3003",
+          "address": {
+            "address_line1": "1300 Innovation Street",
+            "address_line2": "Unit 4A",
+            "city": "Boston",
+            "state_province": "TX",
+            "postal_code": "90003",
+            "country_code": "USA",
+            "coordinates": {
+              "latitude": 37.8049,
+              "longitude": -122.3894
+            }
+          }
+        },
+        "employment_data": {
+          "hire_date": "2025-09-18",
+          "department": "Finance",
+          "job_title": "Senior Specialist",
+          "manager_id": "EMP000103",
+          "salary_band": "L3",
+          "employment_type": "FULL_TIME"
+        },
+        "system_flags": {
+          "is_active": true,
+          "requires_background_check": false,
+          "has_signed_contract": true,
+          "orientation_completed": false
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_104",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "NEW_HIRE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "INSERT",
+      "employee_data": {
+        "employee_id": "EMP999135",
+        "personal_info": {
+          "first_name": "Ling",
+          "middle_name": "M",
+          "last_name": "Zhang",
+          "preferred_name": "Ling",
+          "full_name_calculated": "Ling M Zhang",
+          "birth_date": "1989-05-14",
+          "age_calculated": 39,
+          "gender": "Male",
+          "ethnicity": "International",
+          "nationality": "Chinese",
+          "marital_status": "Single",
+          "emergency_contact": {
+            "name": "Contact Ling",
+            "relationship": "Parent",
+            "phone": "+1-555-1004"
+          }
+        },
+        "contact_info": {
+          "email_address": "ling.zhang@metrica.com",
+          "personal_email": "ling@gmail.com",
+          "phone_number": "+1-555-2004",
+          "mobile_number": "+1-555-3004",
+          "address": {
+            "address_line1": "1400 Innovation Street",
+            "address_line2": "Unit 5A",
+            "city": "San Francisco",
+            "state_province": "CA",
+            "postal_code": "90004",
+            "country_code": "USA",
+            "coordinates": {
+              "latitude": 37.8149,
+              "longitude": -122.37939999999999
+            }
+          }
+        },
+        "employment_data": {
+          "hire_date": "2025-09-18",
+          "department": "Operations",
+          "job_title": "Senior Director",
+          "manager_id": "EMP000104",
+          "salary_band": "L4",
+          "employment_type": "FULL_TIME"
+        },
+        "system_flags": {
+          "is_active": true,
+          "requires_background_check": true,
+          "has_signed_contract": true,
+          "orientation_completed": false
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_105",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "NEW_HIRE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "INSERT",
+      "employee_data": {
+        "employee_id": "EMP999136",
+        "personal_info": {
+          "first_name": "Omar",
+          "middle_name": "M",
+          "last_name": "Benaissa",
+          "preferred_name": "Omar",
+          "full_name_calculated": "Omar M Benaissa",
+          "birth_date": "19810-06-15",
+          "age_calculated": 40,
+          "gender": "Female",
+          "ethnicity": "International",
+          "nationality": "Moroccan",
+          "marital_status": "Single",
+          "emergency_contact": {
+            "name": "Contact Omar",
+            "relationship": "Parent",
+            "phone": "+1-555-1005"
+          }
+        },
+        "contact_info": {
+          "email_address": "omar.benaissa@metrica.com",
+          "personal_email": "omar@gmail.com",
+          "phone_number": "+1-555-2005",
+          "mobile_number": "+1-555-3005",
+          "address": {
+            "address_line1": "1500 Innovation Street",
+            "address_line2": "Unit 6A",
+            "city": "New York",
+            "state_province": "TX",
+            "postal_code": "90005",
+            "country_code": "USA",
+            "coordinates": {
+              "latitude": 37.8249,
+              "longitude": -122.3694
+            }
+          }
+        },
+        "employment_data": {
+          "hire_date": "2025-09-18",
+          "department": "Engineering",
+          "job_title": "Senior Engineer",
+          "manager_id": "EMP000105",
+          "salary_band": "L5",
+          "employment_type": "FULL_TIME"
+        },
+        "system_flags": {
+          "is_active": true,
+          "requires_background_check": false,
+          "has_signed_contract": true,
+          "orientation_completed": false
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_106",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "NEW_HIRE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "INSERT",
+      "employee_data": {
+        "employee_id": "EMP999137",
+        "personal_info": {
+          "first_name": "Elena",
+          "middle_name": "M",
+          "last_name": "Popov",
+          "preferred_name": "Elena",
+          "full_name_calculated": "Elena M Popov",
+          "birth_date": "19811-07-16",
+          "age_calculated": 41,
+          "gender": "Male",
+          "ethnicity": "International",
+          "nationality": "Bulgarian",
+          "marital_status": "Married",
+          "emergency_contact": {
+            "name": "Contact Elena",
+            "relationship": "Spouse",
+            "phone": "+1-555-1006"
+          }
+        },
+        "contact_info": {
+          "email_address": "elena.popov@metrica.com",
+          "personal_email": "elena@gmail.com",
+          "phone_number": "+1-555-2006",
+          "mobile_number": "+1-555-3006",
+          "address": {
+            "address_line1": "1600 Innovation Street",
+            "address_line2": "Unit 7A",
+            "city": "Chicago",
+            "state_province": "TX",
+            "postal_code": "90006",
+            "country_code": "USA",
+            "coordinates": {
+              "latitude": 37.834900000000005,
+              "longitude": -122.3594
+            }
+          }
+        },
+        "employment_data": {
+          "hire_date": "2025-09-18",
+          "department": "Sales",
+          "job_title": "Senior Manager",
+          "manager_id": "EMP000106",
+          "salary_band": "L3",
+          "employment_type": "FULL_TIME"
+        },
+        "system_flags": {
+          "is_active": true,
+          "requires_background_check": true,
+          "has_signed_contract": true,
+          "orientation_completed": false
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_107",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "NEW_HIRE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "INSERT",
+      "employee_data": {
+        "employee_id": "EMP999138",
+        "personal_info": {
+          "first_name": "Arjun",
+          "middle_name": "M",
+          "last_name": "Mehta",
+          "preferred_name": "Arjun",
+          "full_name_calculated": "Arjun M Mehta",
+          "birth_date": "19812-08-17",
+          "age_calculated": 42,
+          "gender": "Female",
+          "ethnicity": "International",
+          "nationality": "Indian",
+          "marital_status": "Single",
+          "emergency_contact": {
+            "name": "Contact Arjun",
+            "relationship": "Parent",
+            "phone": "+1-555-1007"
+          }
+        },
+        "contact_info": {
+          "email_address": "arjun.mehta@metrica.com",
+          "personal_email": "arjun@gmail.com",
+          "phone_number": "+1-555-2007",
+          "mobile_number": "+1-555-3007",
+          "address": {
+            "address_line1": "1700 Innovation Street",
+            "address_line2": "Unit 8A",
+            "city": "Austin",
+            "state_province": "TX",
+            "postal_code": "90007",
+            "country_code": "USA",
+            "coordinates": {
+              "latitude": 37.8449,
+              "longitude": -122.3494
+            }
+          }
+        },
+        "employment_data": {
+          "hire_date": "2025-09-18",
+          "department": "Marketing",
+          "job_title": "Senior Analyst",
+          "manager_id": "EMP000107",
+          "salary_band": "L4",
+          "employment_type": "FULL_TIME"
+        },
+        "system_flags": {
+          "is_active": true,
+          "requires_background_check": false,
+          "has_signed_contract": true,
+          "orientation_completed": false
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_108",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "NEW_HIRE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "INSERT",
+      "employee_data": {
+        "employee_id": "EMP999139",
+        "personal_info": {
+          "first_name": "Fatou",
+          "middle_name": "M",
+          "last_name": "Diallo",
+          "preferred_name": "Fatou",
+          "full_name_calculated": "Fatou M Diallo",
+          "birth_date": "19813-09-18",
+          "age_calculated": 43,
+          "gender": "Male",
+          "ethnicity": "International",
+          "nationality": "Senegalese",
+          "marital_status": "Single",
+          "emergency_contact": {
+            "name": "Contact Fatou",
+            "relationship": "Parent",
+            "phone": "+1-555-1008"
+          }
+        },
+        "contact_info": {
+          "email_address": "fatou.diallo@metrica.com",
+          "personal_email": "fatou@gmail.com",
+          "phone_number": "+1-555-2008",
+          "mobile_number": "+1-555-3008",
+          "address": {
+            "address_line1": "1800 Innovation Street",
+            "address_line2": "Unit 9A",
+            "city": "Atlanta",
+            "state_province": "TX",
+            "postal_code": "90008",
+            "country_code": "USA",
+            "coordinates": {
+              "latitude": 37.8549,
+              "longitude": -122.3394
+            }
+          }
+        },
+        "employment_data": {
+          "hire_date": "2025-09-18",
+          "department": "Finance",
+          "job_title": "Senior Specialist",
+          "manager_id": "EMP000108",
+          "salary_band": "L5",
+          "employment_type": "FULL_TIME"
+        },
+        "system_flags": {
+          "is_active": true,
+          "requires_background_check": true,
+          "has_signed_contract": true,
+          "orientation_completed": false
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_109",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "NEW_HIRE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "INSERT",
+      "employee_data": {
+        "employee_id": "EMP999140",
+        "personal_info": {
+          "first_name": "Niklas",
+          "middle_name": "M",
+          "last_name": "Hansen",
+          "preferred_name": "Niklas",
+          "full_name_calculated": "Niklas M Hansen",
+          "birth_date": "19814-01-19",
+          "age_calculated": 44,
+          "gender": "Female",
+          "ethnicity": "International",
+          "nationality": "Danish",
+          "marital_status": "Married",
+          "emergency_contact": {
+            "name": "Contact Niklas",
+            "relationship": "Spouse",
+            "phone": "+1-555-1009"
+          }
+        },
+        "contact_info": {
+          "email_address": "niklas.hansen@metrica.com",
+          "personal_email": "niklas@gmail.com",
+          "phone_number": "+1-555-2009",
+          "mobile_number": "+1-555-3009",
+          "address": {
+            "address_line1": "1900 Innovation Street",
+            "address_line2": "Unit 10A",
+            "city": "Portland",
+            "state_province": "TX",
+            "postal_code": "90009",
+            "country_code": "USA",
+            "coordinates": {
+              "latitude": 37.864900000000006,
+              "longitude": -122.32939999999999
+            }
+          }
+        },
+        "employment_data": {
+          "hire_date": "2025-09-18",
+          "department": "Operations",
+          "job_title": "Senior Director",
+          "manager_id": "EMP000109",
+          "salary_band": "L3",
+          "employment_type": "FULL_TIME"
+        },
+        "system_flags": {
+          "is_active": true,
+          "requires_background_check": false,
+          "has_signed_contract": true,
+          "orientation_completed": false
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_110",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "ADDRESS_UPDATE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "UPDATE_ADDRESS",
+      "employee_data": {
+        "employee_id": "EMP000051",
+        "change_reason": "Remote work",
+        "previous_address": {
+          "address_line1": "2500 Old Street",
+          "city": "Previous City",
+          "state_province": "CA"
+        },
+        "contact_info": {
+          "address": {
+            "address_line1": "3750 New Avenue",
+            "address_line2": "Suite 1B",
+            "city": "Portland",
+            "state_province": "OR",
+            "postal_code": "80010",
+            "country_code": "USA",
+            "move_date": "2025-09-18",
+            "coordinates": {
+              "latitude": 45.0,
+              "longitude": -95.0
+            }
+          }
+        },
+        "system_flags": {
+          "address_verified": true,
+          "requires_tax_update": true,
+          "mail_forwarding_setup": true
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_111",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "ADDRESS_UPDATE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "UPDATE_ADDRESS",
+      "employee_data": {
+        "employee_id": "EMP000052",
+        "change_reason": "Family move",
+        "previous_address": {
+          "address_line1": "2550 Old Street",
+          "city": "Previous City",
+          "state_province": "CA"
+        },
+        "contact_info": {
+          "address": {
+            "address_line1": "3825 New Avenue",
+            "address_line2": "Suite 2B",
+            "city": "Seattle",
+            "state_province": "WA",
+            "postal_code": "80011",
+            "country_code": "USA",
+            "move_date": "2025-09-18",
+            "coordinates": {
+              "latitude": 45.5,
+              "longitude": -94.5
+            }
+          }
+        },
+        "system_flags": {
+          "address_verified": true,
+          "requires_tax_update": false,
+          "mail_forwarding_setup": true
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_112",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "ADDRESS_UPDATE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "UPDATE_ADDRESS",
+      "employee_data": {
+        "employee_id": "EMP000053",
+        "change_reason": "Job transfer",
+        "previous_address": {
+          "address_line1": "2600 Old Street",
+          "city": "Previous City",
+          "state_province": "CA"
+        },
+        "contact_info": {
+          "address": {
+            "address_line1": "3900 New Avenue",
+            "address_line2": "Suite 3B",
+            "city": "Denver",
+            "state_province": "CO",
+            "postal_code": "80012",
+            "country_code": "USA",
+            "move_date": "2025-09-18",
+            "coordinates": {
+              "latitude": 46.0,
+              "longitude": -94.0
+            }
+          }
+        },
+        "system_flags": {
+          "address_verified": true,
+          "requires_tax_update": true,
+          "mail_forwarding_setup": true
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_113",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "ADDRESS_UPDATE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "UPDATE_ADDRESS",
+      "employee_data": {
+        "employee_id": "EMP000054",
+        "change_reason": "Cost savings",
+        "previous_address": {
+          "address_line1": "2650 Old Street",
+          "city": "Previous City",
+          "state_province": "CA"
+        },
+        "contact_info": {
+          "address": {
+            "address_line1": "3975 New Avenue",
+            "address_line2": "Suite 4B",
+            "city": "Austin",
+            "state_province": "TX",
+            "postal_code": "80013",
+            "country_code": "USA",
+            "move_date": "2025-09-18",
+            "coordinates": {
+              "latitude": 46.5,
+              "longitude": -93.5
+            }
+          }
+        },
+        "system_flags": {
+          "address_verified": true,
+          "requires_tax_update": false,
+          "mail_forwarding_setup": true
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_114",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "ADDRESS_UPDATE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "UPDATE_ADDRESS",
+      "employee_data": {
+        "employee_id": "EMP000055",
+        "change_reason": "Lifestyle change",
+        "previous_address": {
+          "address_line1": "2700 Old Street",
+          "city": "Previous City",
+          "state_province": "CA"
+        },
+        "contact_info": {
+          "address": {
+            "address_line1": "4050 New Avenue",
+            "address_line2": "Suite 5B",
+            "city": "Phoenix",
+            "state_province": "AZ",
+            "postal_code": "80014",
+            "country_code": "USA",
+            "move_date": "2025-09-18",
+            "coordinates": {
+              "latitude": 47.0,
+              "longitude": -93.0
+            }
+          }
+        },
+        "system_flags": {
+          "address_verified": true,
+          "requires_tax_update": true,
+          "mail_forwarding_setup": true
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_115",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "ADDRESS_UPDATE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "UPDATE_ADDRESS",
+      "employee_data": {
+        "employee_id": "EMP000056",
+        "change_reason": "Education",
+        "previous_address": {
+          "address_line1": "2750 Old Street",
+          "city": "Previous City",
+          "state_province": "CA"
+        },
+        "contact_info": {
+          "address": {
+            "address_line1": "4125 New Avenue",
+            "address_line2": "Suite 6B",
+            "city": "Dallas",
+            "state_province": "TX",
+            "postal_code": "80015",
+            "country_code": "USA",
+            "move_date": "2025-09-18",
+            "coordinates": {
+              "latitude": 47.5,
+              "longitude": -92.5
+            }
+          }
+        },
+        "system_flags": {
+          "address_verified": true,
+          "requires_tax_update": false,
+          "mail_forwarding_setup": true
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_116",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "ADDRESS_UPDATE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "UPDATE_ADDRESS",
+      "employee_data": {
+        "employee_id": "EMP000057",
+        "change_reason": "Healthcare",
+        "previous_address": {
+          "address_line1": "2800 Old Street",
+          "city": "Previous City",
+          "state_province": "CA"
+        },
+        "contact_info": {
+          "address": {
+            "address_line1": "4200 New Avenue",
+            "address_line2": "Suite 7B",
+            "city": "Houston",
+            "state_province": "TX",
+            "postal_code": "80016",
+            "country_code": "USA",
+            "move_date": "2025-09-18",
+            "coordinates": {
+              "latitude": 48.0,
+              "longitude": -92.0
+            }
+          }
+        },
+        "system_flags": {
+          "address_verified": true,
+          "requires_tax_update": true,
+          "mail_forwarding_setup": true
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_117",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "ADDRESS_UPDATE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "UPDATE_ADDRESS",
+      "employee_data": {
+        "employee_id": "EMP000058",
+        "change_reason": "Investment",
+        "previous_address": {
+          "address_line1": "2850 Old Street",
+          "city": "Previous City",
+          "state_province": "CA"
+        },
+        "contact_info": {
+          "address": {
+            "address_line1": "4275 New Avenue",
+            "address_line2": "Suite 8B",
+            "city": "Atlanta",
+            "state_province": "GA",
+            "postal_code": "80017",
+            "country_code": "USA",
+            "move_date": "2025-09-18",
+            "coordinates": {
+              "latitude": 48.5,
+              "longitude": -91.5
+            }
+          }
+        },
+        "system_flags": {
+          "address_verified": true,
+          "requires_tax_update": false,
+          "mail_forwarding_setup": true
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_118",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "NAME_CHANGE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "UPDATE_NAME_ADDRESS",
+      "employee_data": {
+        "employee_id": "EMP000077",
+        "change_reason": "Marriage",
+        "name_change_documentation": {
+          "marriage_certificate_id": "MC2025091818",
+          "legal_name_change_date": "2025-09-18",
+          "court_order_number": null
+        },
+        "personal_info": {
+          "previous_last_name": "Smith",
+          "last_name": "Smith-Wilson",
+          "legal_documents_updated": [
+            "SSN",
+            "PASSPORT",
+            "DRIVERS_LICENSE"
+          ]
+        },
+        "contact_info": {
+          "address": {
+            "address_line1": "5800 Married Life Boulevard",
+            "address_line2": "Love Nest 1",
+            "city": "Nashville",
+            "state_province": "TN",
+            "postal_code": "37018",
+            "country_code": "USA",
+            "move_date": "2025-09-18",
+            "coordinates": {
+              "latitude": 53.0,
+              "longitude": -67.0
+            }
+          }
+        },
+        "system_flags": {
+          "name_change_verified": true,
+          "address_verified": true,
+          "requires_hr_review": true,
+          "requires_payroll_update": true,
+          "requires_benefits_update": true
+        }
+      }
+    },
+    {
+      "system_metadata": {
+        "record_id": "REC_119",
+        "last_modified": "2025-09-18T00:00:00Z",
+        "data_source": "NAME_CHANGE_SYSTEM",
+        "validation_status": "PASSED"
+      },
+      "operation_type": "UPDATE_NAME_ADDRESS",
+      "employee_data": {
+        "employee_id": "EMP000078",
+        "change_reason": "Marriage",
+        "name_change_documentation": {
+          "marriage_certificate_id": "MC2025091819",
+          "legal_name_change_date": "2025-09-18",
+          "court_order_number": null
+        },
+        "personal_info": {
+          "previous_last_name": "Jones",
+          "last_name": "Jones-Brown",
+          "legal_documents_updated": [
+            "SSN",
+            "PASSPORT",
+            "DRIVERS_LICENSE"
+          ]
+        },
+        "contact_info": {
+          "address": {
+            "address_line1": "5900 Married Life Boulevard",
+            "address_line2": "Love Nest 2",
+            "city": "Charlotte",
+            "state_province": "NC",
+            "postal_code": "37019",
+            "country_code": "USA",
+            "move_date": "2025-09-18",
+            "coordinates": {
+              "latitude": 54.0,
+              "longitude": -66.0
+            }
+          }
+        },
+        "system_flags": {
+          "name_change_verified": true,
+          "address_verified": true,
+          "requires_hr_review": true,
+          "requires_payroll_update": true,
+          "requires_benefits_update": true
+        }
+      }
+    }
+  ]
+}
